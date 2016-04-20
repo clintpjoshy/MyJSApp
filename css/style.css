@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.document {
+    margin: auto;
+    background-color: #644529;
+    height: 1024px;
+    width: 1024px
+}

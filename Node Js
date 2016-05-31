@@ -1,0 +1,24 @@
+V8 JS Engine:
+
+* Processors: - Microprocessor. They speak languages like IA-32, x86-64,  ARM, MIPS. Instructions are given to the machine (machine code || machine language).
+
+* Machine Code: - These are languages that are spoken by computer processers. Every programs are converted (compiled) into machine language that the processor speaks. Programs needs to be converted to machine language by a process. Machine code are not often written directly because it's hard to understand for humans. Therefore we write in otherr language and it is converted to machine code.
+
+* C++: - Along with machine language, assembly language and others came into picture. Assembly language is better than machine language but still low level. Then comes C/C++ when is slightly higher level than machine or assembly languages. C syntax inspired many higher level languages like Java, Javascript etc. When writing in higher languages, it is far away from machine language and do not deal with memory or any such details of the processors. Therefore an engine works between higher level languages and machine languages. Ex. Javasciprt is a very high level language. Though the conversion can happen from JS to C/C++ to Assembly to Machine, it can be converted directly with some interpreters. Here Node JS is written in C++. The reason is because V8 is written in JS. The interpreter or the engine that converts JS to machine code is V8 engine. Node adds on to the V8 engine this makes it easier for the V8 engine to understand Node without any interpreters thus increasing the performance.
+
+JS Engines and ECMASCRIPT Specifications:
+
+Ecmascript: - Standard that JS is based on.
+There are many JS engines. V8 is what Node is built on.
+
+A JS ENGINE: - A program that converts JS into something that a processor can understand. It should follow the ECMAScript standard.
+
+V8 Under the Hood: - V8 is open source and can even be edited. This is in C++.
+
+ADDING FEATURES TO JS:
+
+V8 can run standalone or can be embedded into any C++ applications.
+
+JS code is sent to V8 (C++) which is again converted to machine code.
+Here V8 can be custom C++ code that can be embedded into the existing V8. This is how we can add features to JS. Thus by writing c++ code which enables new features to JS. C++ has more features than JS because JS was designed as a higher level language to deal with browsers and doesn't have the capacity to deal with lower level applications like dealing with folder and files on a hardrive or connecting with databases. C++ was designed to be closer to machine/processer.
+

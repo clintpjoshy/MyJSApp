@@ -9,8 +9,8 @@ header {
     margin-top: 10px;
     text-align: center;
     font-size: 25px;
-    font-family: Coronetscript, cursive,
-    color: #00FFFC
+    font-family: Coronetscript, cursive;
+    color: #ffffff
 }
 
 footer {
@@ -24,6 +24,6 @@ p {
 .document {
   margin-top: 25px;
   /* margin-left: 40px;*/ /* Might not need this when I increase the size of background image to 1024 px */
-  background: url("../images/background.gif") no-repeat;
+  background: url("../images/background.png") no-repeat;
   height: 640px
 }
